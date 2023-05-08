@@ -82,8 +82,8 @@ public class Builder {
         return this;
     }
 
-    public void build() {
-
+    public Student build() {
+        return new Student(this);
     }
 
 }
