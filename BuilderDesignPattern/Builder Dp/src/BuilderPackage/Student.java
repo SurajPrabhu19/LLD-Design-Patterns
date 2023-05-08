@@ -25,9 +25,9 @@ public class Student {
     }
 
     // Methods:
-    // public static void buildStudent()
-    // {
-    // Builder builder = new Builder();
-    // }
+    public static Builder getBuilder() {
+        // Builder builder = new Builder();
+        return new Builder();
+    }
 
 }
