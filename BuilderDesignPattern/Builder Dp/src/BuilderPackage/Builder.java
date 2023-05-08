@@ -42,36 +42,44 @@ public class Builder {
         return phoneNumber;
     }
 
-    public void setAge(int age) {
+    public Builder setAge(int age) {
         this.age = age;
+        return this;
     }
 
-    public void setName(String name) {
+    public Builder setName(String name) {
         this.name = name;
+        return this;
     }
 
-    public void setBatch(String batch) {
+    public Builder setBatch(String batch) {
         this.batch = batch;
+        return this;
     }
 
-    public void setGradYear(int gradYear) {
+    public Builder setGradYear(int gradYear) {
         this.gradYear = gradYear;
+        return this;
     }
 
-    public void setId(long id) {
+    public Builder setId(long id) {
         this.id = id;
+        return this;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    public Builder setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+        return this;
     }
 
-    public void setPsp(double psp) {
+    public Builder setPsp(double psp) {
         this.psp = psp;
+        return this;
     }
 
-    public void setUniversityName(String universityName) {
+    public Builder setUniversityName(String universityName) {
         this.universityName = universityName;
+        return this;
     }
 
     public void build() {

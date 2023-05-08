@@ -6,11 +6,10 @@ public class Client {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        Builder builder = Student.getBuilder();
-        builder.setName("Suraj");
-        builder.setAge(24);
-        // builder.setGradYear(2021);
-        builder.setGradYear(2024);
+        Builder builder = Student.getBuilder()
+                .setName("Suraj")
+                .setGradYear(2022)
+                .setAge(24);
 
         Student student = new Student(builder);
         System.out.println(student);
