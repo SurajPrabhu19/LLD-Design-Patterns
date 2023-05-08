@@ -25,6 +25,9 @@ public class Student {
     }
 
     // Methods:
+    public static Builder getBuilder() { // static cuz ctor is private
+        return new Builder();
+    }
 
     public static class Builder {
         private String name;
@@ -35,10 +38,6 @@ public class Student {
         private long id;
         private int gradYear;
         private String phoneNumber;
-
-        public Builder getBuilder() {
-            return new Builder();
-        }
 
         public long getId() {
             return id;
