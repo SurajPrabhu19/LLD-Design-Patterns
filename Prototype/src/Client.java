@@ -30,7 +30,8 @@ public class Client {
         intelligentStudentCopy.psp = 100;
         var map = registry.getMap();
         for (String key : map.keySet()) {
-            System.out.println(map.get(key));
+            System.out.println(key + ": " + map.get(key));
+            // System.out.println(map.get(key));
         }
 
         System.out.println(studentCopy);
