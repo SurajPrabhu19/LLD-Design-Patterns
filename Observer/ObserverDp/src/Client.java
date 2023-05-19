@@ -7,6 +7,7 @@ public class Client {
         InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
 
         flipkart.orderPlaced();
+        flipkart.orderPlaced();
 
     }
 
